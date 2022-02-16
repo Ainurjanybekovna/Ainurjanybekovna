@@ -1,1 +1,2 @@
-#This is my portfolio
+# Deployed  Link
+https://ainurjanybekovna.github.io/Ainurjanybekovna/
