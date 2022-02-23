@@ -1,2 +1,2 @@
 # Deployed  Link
-https://ainurjanybekovna.github.io/Ainurjanybekovna/
+https://ainurjanybekovna.github.io/Ainurjanybekovna/ 
