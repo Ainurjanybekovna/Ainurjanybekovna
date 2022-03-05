@@ -1,3 +1,10 @@
+:root {
+    --accent: #174180;
+    --accent-light: #3764a7;
+    --pure-white: #fff;
+
+}
+
 html {
     box-sizing: border-box;
 }
@@ -63,4 +70,132 @@ body {
     padding: 0 15px;
     font-size: 16px; 
 }
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.intro {
+    padding: 60px;
+    background-color: rgb(231, 216, 216);
+
+}
+.intro-inner {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+.intro-left {
+    width: 30%;
+}
+.intro-rigth {
+    width: 60%;
+    
+}
+.intro-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.intro-rigth h3 {
+    margin: 0 0 10px;
+}
+.contacts {
+    margin-bottom: 0px;
+    padding: 25px 25px;
+    background-color: rgb(231, 216, 216);
+   
+}
+.contacts ul {
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color:  var(--pure-white);
+ 
+ 
+   
+}
+.contacts li {
+    padding: 25px 25px;
+    background-color: var(--accent-light);
+    border-radius: 4px;
+}
+
+.contacts h3 {
+    text-align: center;
+    font-style: bold;
+    color: black;
+   
+}
+
+.skills {
+    text-align: center;
+    color: var(--pure-white);
+    background-color: var(--accent);
+    padding: 60px;
+}
+.skills ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0;
+    padding: 30px;
+    list-style: none;
+}
+.skills li {
+    padding: 25px 25px;
+    background-color: var(--accent-light);
+    border-radius: 4px;
+}
+.code-example {
+    text-align: center;
+    background-color: rgb(238, 200, 200);
+    padding: 60px;
+
+}
+.languages {
+    text-align: center;
+    color: var(--pure-white);
+    background-color: var(--accent-light);
+    padding: 40px;
+
+}
+.languages li {
+   background-color: var(--accent);
+   list-style: none; 
+   padding: 20px;
+   margin: 0;
+
+
+}
+
+.education {
+    text-align: center;
+    color: var(--pure-white);
+    background-color: var(--accent-light);
+    padding: 60px;
+    
+}
+.education li {
+    list-style: none;
+}
+.footer {
+    text-align: center;
+    color: #fff;
+    background-color:  var(--accent);
+}
+footer a {
+    color: #fff;
+}
+
+
+
   
